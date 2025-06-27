@@ -303,6 +303,15 @@
     }
 }
 
+/* ===== Feature Flex Fixes ===== */
+.feature-text .d-flex.align-items-center {
+  flex-wrap: wrap;
+}
+
+.feature-text .d-flex.align-items-center > .ms-4 {
+  flex: 1 1 auto;
+  min-width: 0;
+}
 
 /*** Project Portfolio ***/
 #portfolio-flters li {
